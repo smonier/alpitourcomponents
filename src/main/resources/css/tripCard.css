@@ -1,0 +1,29 @@
+.main {
+  text-transform: capitalize;
+}
+
+.columnRight {
+  float: right;
+  width: 50%;
+  padding: 15px;
+  text-align: right;
+}
+
+.columnLeft {
+  float: left;
+  width: 50%;
+  padding: 15px;
+    text-align: left;
+}
+.columnCenter {
+  width: 33%;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

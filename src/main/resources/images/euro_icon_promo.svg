@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.998" height="49.999" viewBox="0 0 49.998 49.999">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f48220"/>
+      <stop offset="1" stop-color="#ee4334"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_3314" data-name="Group 3314" transform="translate(-652 -902)">
+    <g id="Group_3313" data-name="Group 3313" transform="translate(86)">
+      <g id="Group_3311" data-name="Group 3311" transform="translate(94)">
+        <g id="Group_3309" data-name="Group 3309" transform="translate(132)">
+          <path id="BOLLINO" d="M46.428,37.886a1.1,1.1,0,0,1,.166.395l1.912,9.605a1.041,1.041,0,0,1-1.364,1.187l-8.651-3.022a24.98,24.98,0,1,1,7.937-8.165Z" transform="translate(339.999 902)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <path id="Path_1362" data-name="Path 1362" d="M15.063-2.429v2.1l-.83.232a14.341,14.341,0,0,1-3.7.549A7.91,7.91,0,0,1,5.145-1.3,8.736,8.736,0,0,1,2.515-6.555H.061l.623-1.5H2.307q-.024-.6-.024-.916,0-.476.073-1.489H.061l.623-1.514H2.6a8.349,8.349,0,0,1,2.838-4.889,8.671,8.671,0,0,1,5.5-1.63,18.446,18.446,0,0,1,4.1.537v2.222a11.378,11.378,0,0,0-4.077-.867,5.722,5.722,0,0,0-3.656,1.16A7,7,0,0,0,5.09-11.975h8.386l-.623,1.514H4.761q-.073.989-.073,1.477,0,.317.024.928h7.141l-.623,1.5H4.98A7.383,7.383,0,0,0,7.111-2.8,5.406,5.406,0,0,0,10.779-1.55,13.067,13.067,0,0,0,15.063-2.429Z" transform="translate(583 936)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

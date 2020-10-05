@@ -1,0 +1,33 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<alpitournt = 'http://www.jahia.org/alpitourComponents/nt/1.0'>
+<alpitourmix = 'http://www.jahia.org/alpitourComponents/mix/1.0'>
+  
+  
+[alpitourmix:alpitourComponents] > jmix:droppableContent, jmix:editorialContent mixin
+
+[alpitournt:tripCard] > jnt:content, alpitourmix:alpitourComponents
+ - tripTitle (string) i18n
+ - image (weakreference, picker[type='image']) < 'jmix:image'
+ - provider (string, choicelist[resourceBundle]) = Alpitour autocreated indexed=no < 'Alpitour', 'Francorosso', 'Viaggidea', 'Turisanda', 'BravoClub', 'Karambola', 'Swantour', 'Presstour'
+ - lastMinute (boolean)
+ - hotel (string) i18n
+ - departure (string) i18n
+ - priceDescription (string)
+ - price (string)
+ - description (string, richtext) i18n
+ - imgGallery (weakreference, picker[type='image']) multiple
+ - mappa (string, richtext) 
+ - recensioni (string, richtext) 
+ - perVoi (string, richtext) 
+ - camere (string, richtext) 
+ - covid (string, richtext) 
+
+
+[alpitournt:tripList] > jnt:content, mix:title, alpitourmix:alpitourComponents
+- bannerText (string, richtext) internationalized
+- maxTrip (long) = 10 indexed=no
+- filter (weakreference, category[autoSelectParent=false])
+  
+  
+[alpitournt:heading] > jnt:content, jmix:bindedComponent, alpitourmix:alpitourComponents
